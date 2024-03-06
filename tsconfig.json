@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,  
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": "src",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ui/*":["./src/ui/*"],
+      "@app/*":["./src/app/*"]
+    }
+  },
+
+  "include": ["src"]
+}
