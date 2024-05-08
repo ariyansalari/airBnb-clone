@@ -6,7 +6,6 @@ import { PropertiesCategory } from "./partials";
 export const HomeScreen = () => {
   const { mode, toggleColorMode } = useThemeContext();
   const { changeLanguage } = useUpdateChangeLanguage();
-  console.log(mode);
   useProvider();
   return (
     <Container maxWidth="xl">
